@@ -1,0 +1,5 @@
+response = Map();
+response.put("action","reply");
+response.put("replies",{"Welcome! We’re so glad you’re here! I am very happy to help you :)","Tell me, How would you describe yourself ?"});
+response.put("suggestions",{"Farmer","Customer","How to buy and sell"});
+return response

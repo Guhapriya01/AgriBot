@@ -1,0 +1,33 @@
+response = Map();
+msg = message.get("text");
+if(!msg.isNull())
+{
+	response.put("action","context");
+	if(msg.equalsIgnoreCase("Farmer"))
+	{
+		response.put("context_id","farm");
+		question = {"name":"farm_actions","replies":{"That seems amazing ! ","Here are the list of things that you can do here. What do you desire to do?"},"input":{"type":"select","options":{"Register","Weather Forecast","Crop Recommendation","Soil Testing Labs","Schemes","Direct Purchase Centres"}}};
+		response.put("questions",{question});
+	}
+	else if(msg.equalsIgnoreCase("Customer"))
+	{
+		response.put("context_id","cust");
+		question = {"name":"cust_actions","replies":{"I can definitely help you with that. Tell me what do you wish to buy?"},"input":{"type":"select","options":{"Paddy","Millets","Fruits","Vegetables","Pulses","Spices & Condiments"}}};
+		response.put("questions",{question});
+	}
+	else if(msg.equalsIgnoreCase("How to buy and sell"))
+	{
+		response.put("context_id","browsing");
+		question = {"name":"others","replies":{"Ok, enjoy looking around, I'll be right here to help you :)","Can you identify yourself? This will help me to show you the best ones."},"input":{"type":"select","options":{"Farmer","Customer"}}};
+		response.put("questions",{question});
+	}
+	else
+	{
+		response = Map();
+		response.put("action","reply");
+		response.put("replies",{"We’re so glad you’re here! I am very happy to help you :) ","Tell me, How would you describe yourself ?"});
+		response.put("suggestions",{"Farmer","Customer","How to buy and sell"});
+		return response;
+	}
+}
+return response;
