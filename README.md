@@ -5,8 +5,4 @@ AgriBot is created using salesiq scripts which will help the farmers to sell the
 **LOOK & FEEL**
 
 
-
-
-https://github.com/Guhapriya01/AgriBot/assets/76595809/421b2820-bb51-467a-a8bc-e4a16f7f064a
-
-
+![Image in slide 8 of Copy of Sparkwit](https://github.com/Guhapriya01/AgriBot/assets/76595809/53043541-00d9-4db6-bbd1-10767223cc6c)
