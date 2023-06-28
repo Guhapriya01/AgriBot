@@ -4,4 +4,9 @@ AgriBot is created using salesiq scripts which will help the farmers to sell the
 
 **LOOK & FEEL**
 
-![Copy of SalesIQ Master presentation 15-02-2022 17 10 47 159(1) pptx](https://github.com/Guhapriya01/AgriBot/assets/76595809/7819a0df-38c7-4183-9f99-4970d5e20d51)
+
+
+
+https://github.com/Guhapriya01/AgriBot/assets/76595809/421b2820-bb51-467a-a8bc-e4a16f7f064a
+
+
